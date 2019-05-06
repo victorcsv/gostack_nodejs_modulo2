@@ -1,5 +1,5 @@
 const express = require('express');
-const routes = express.Router();
+const routes = new express.Router();
 
 routes.get('/', (req, res) => {
   return res.send('Hellow World');
